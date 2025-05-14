@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 public class Conexion {
 
-    private static final String URL = "jdbc:mysql://localhost:50942/railway";
+    private static final String URL = "jdbc:mysql://crossover.proxy.rlwy.net:50942/railway";
     private static final String USER = "root";
     private static final String PASSWORD = "RKnXYYVSibzsjmnfRlPBHPYyieSSBIYi";
-
+    
     private static Connection conn = null;
 
     public static Connection getConexion() {
